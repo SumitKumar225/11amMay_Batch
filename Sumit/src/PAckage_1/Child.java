@@ -11,6 +11,7 @@ public class Child extends Parent{
 		public void child(int a,int b) {
 			super.abc(1, 2);
 			System.out.println("i am child two parameterized method");
+			System.out.println();
 		}
 		public void child(int a,int b,int c) {
 			this.child(1, 2);
