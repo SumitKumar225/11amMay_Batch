@@ -4,7 +4,7 @@ public class Automation {
 	public Automation() {
 		this(1,2,3);
 		System.out.println("i am parent default contructor");
-		
+		System.out.println();
 	}
 	public Automation(int a) {
 		this();
